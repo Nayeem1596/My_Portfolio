@@ -39,8 +39,7 @@ const Resume = () => {
 					file="files/resume.pdf"
 					onLoadSuccess={onDocumentLoadSuccess}
 				>
-					{/* 4. Map through the number of pages */}
-					{Array.from(new Array(numPages), (el, index) => (
+					{Array.from({ length: numPages ?? 0 }, (_, index) => (
 						<Page
 							key={`page_${index + 1}`}
 							pageNumber={index + 1}
