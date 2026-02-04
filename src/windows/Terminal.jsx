@@ -30,9 +30,9 @@ const Terminal = () => {
 							<Check className="check" size={20} />
 							<h3>{category}</h3>
 							<ul>
-								{items.map((items, i) => (
-									<li key={i}>
-										{items}
+								{items.map((item, i) => (
+									<li key={item}>
+										{item}
 										{i < items.length - 1 ? "," : ""}
 									</li>
 								))}
