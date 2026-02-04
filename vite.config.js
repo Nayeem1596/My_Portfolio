@@ -7,6 +7,9 @@ import { fileURLToPath } from "url";
 // https://vite.dev/config/
 export default defineConfig({
 	plugins: [react(), tailwindcss()],
+	worker: {
+		format: "es",
+	},
 	resolve: {
 		alias: {
 			"@components": resolve(
