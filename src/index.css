@@ -393,4 +393,12 @@ body {
       }
     }
   }
+
+  .contact-info {
+    @apply flex items-center gap-1 whitespace-nowrap;
+  }
+
+  .contact-info a {
+    @apply text-blue-600 hover:underline h-fit align-middle;
+  }
 }
