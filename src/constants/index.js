@@ -131,7 +131,7 @@ const socials = [
 		text: "Github",
 		icon: "/icons/github.svg",
 		bg: "#f4656b",
-		link: "https://github.com/JavaScript-Mastery-Pro",
+		link: "https://github.com/Nayeem1596",
 	},
 	{
 		id: 2,
@@ -152,7 +152,7 @@ const socials = [
 		text: "LinkedIn",
 		icon: "/icons/linkedin.svg",
 		bg: "#05b6f6",
-		link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+		link: "https://www.linkedin.com/in/nayeemkhanlodi/",
 	},
 ];
 
@@ -281,7 +281,7 @@ const WORK_LOCATION = {
 			icon: "/images/folder.png",
 			kind: "folder",
 			position: "top-52 right-80",
-			windowPosition: "top-[20vh] left-7",
+			windowPosition: "top-[20vh] left-5",
 			children: [
 				{
 					id: 1,
@@ -334,7 +334,7 @@ const WORK_LOCATION = {
 			icon: "/images/folder.png",
 			kind: "folder",
 			position: "top-10 left-80",
-			windowPosition: "top-[33vh] left-7",
+			windowPosition: "top-[35vh] left-5",
 			children: [
 				{
 					id: 1,
