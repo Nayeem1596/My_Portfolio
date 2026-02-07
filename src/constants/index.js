@@ -227,8 +227,8 @@ const WORK_LOCATION = {
 			name: "Nike Ecommerce Website Application",
 			icon: "/images/folder.png",
 			kind: "folder",
-			position: "top-10 left-5", // icon position inside Finder
-			windowPosition: "top-[5vh] left-5", // optional: Finder window position
+			position: "top-5 left-0", // icon position inside Finder
+			windowPosition: "top-[5vh] right-5", // optional: Finder window position
 			children: [
 				{
 					id: 1,
@@ -236,7 +236,7 @@ const WORK_LOCATION = {
 					icon: "/images/txt.png",
 					kind: "file",
 					fileType: "txt",
-					position: "top-5 left-10",
+					position: "top-5 left-0",
 					description: [
 						"The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
 						"Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
@@ -251,7 +251,7 @@ const WORK_LOCATION = {
 					kind: "file",
 					fileType: "url",
 					href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
-					position: "top-10 right-20",
+					position: "top-5 left-30",
 				},
 				{
 					id: 4,
@@ -259,7 +259,7 @@ const WORK_LOCATION = {
 					icon: "/images/image.png",
 					kind: "file",
 					fileType: "img",
-					position: "top-52 right-80",
+					position: "top-5 left-60",
 					imageUrl: "/images/project-1.png",
 				},
 				{
@@ -269,7 +269,7 @@ const WORK_LOCATION = {
 					kind: "file",
 					fileType: "fig",
 					href: "https://google.com",
-					position: "top-60 right-20",
+					position: "top-5 left-90",
 				},
 			],
 		},
@@ -280,8 +280,8 @@ const WORK_LOCATION = {
 			name: "AI Resume Analyzer",
 			icon: "/images/folder.png",
 			kind: "folder",
-			position: "top-52 right-80",
-			windowPosition: "top-[20vh] left-5",
+			position: "top-5 left-35",
+			windowPosition: "top-[20vh] right-8",
 			children: [
 				{
 					id: 1,
@@ -289,7 +289,7 @@ const WORK_LOCATION = {
 					icon: "/images/txt.png",
 					kind: "file",
 					fileType: "txt",
-					position: "top-5 right-10",
+					position: "top-5 left-0",
 					description: [
 						"AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
 						"Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
@@ -304,7 +304,7 @@ const WORK_LOCATION = {
 					kind: "file",
 					fileType: "url",
 					href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
-					position: "top-20 left-20",
+					position: "top-5 left-30",
 				},
 				{
 					id: 4,
@@ -312,7 +312,7 @@ const WORK_LOCATION = {
 					icon: "/images/image.png",
 					kind: "file",
 					fileType: "img",
-					position: "top-52 left-80",
+					position: "top-5 left-60",
 					imageUrl: "/images/project-2.png",
 				},
 				{
@@ -322,7 +322,7 @@ const WORK_LOCATION = {
 					kind: "file",
 					fileType: "fig",
 					href: "https://google.com",
-					position: "top-60 left-5",
+					position: "top-5 left-90",
 				},
 			],
 		},
@@ -333,8 +333,8 @@ const WORK_LOCATION = {
 			name: "Food Delivery App",
 			icon: "/images/folder.png",
 			kind: "folder",
-			position: "top-10 left-80",
-			windowPosition: "top-[35vh] left-5",
+			position: "top-5 left-70",
+			windowPosition: "top-[35vh] right-9",
 			children: [
 				{
 					id: 1,
@@ -342,7 +342,7 @@ const WORK_LOCATION = {
 					icon: "/images/txt.png",
 					kind: "file",
 					fileType: "txt",
-					position: "top-5 left-10",
+					position: "top-5 left-0",
 					description: [
 						"Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
 						"Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
@@ -357,7 +357,7 @@ const WORK_LOCATION = {
 					kind: "file",
 					fileType: "url",
 					href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
-					position: "top-10 right-20",
+					position: "top-5 left-30",
 				},
 				{
 					id: 4,
@@ -365,7 +365,7 @@ const WORK_LOCATION = {
 					icon: "/images/image.png",
 					kind: "file",
 					fileType: "img",
-					position: "top-52 right-80",
+					position: "top-5 left-60",
 					imageUrl: "/images/project-3.png",
 				},
 				{
@@ -375,7 +375,7 @@ const WORK_LOCATION = {
 					kind: "file",
 					fileType: "fig",
 					href: "https://google.com",
-					position: "top-60 right-20",
+					position: "top-5 left-90",
 				},
 			],
 		},
@@ -395,7 +395,7 @@ const ABOUT_LOCATION = {
 			icon: "/images/image.png",
 			kind: "file",
 			fileType: "img",
-			position: "top-10 left-5",
+			position: "top-5 left-0",
 			imageUrl: "/images/adrian.jpg",
 		},
 		{
@@ -404,7 +404,7 @@ const ABOUT_LOCATION = {
 			icon: "/images/image.png",
 			kind: "file",
 			fileType: "img",
-			position: "top-28 right-72",
+			position: "top-5 left-30",
 			imageUrl: "/images/adrian-2.jpg",
 		},
 		{
@@ -413,7 +413,7 @@ const ABOUT_LOCATION = {
 			icon: "/images/image.png",
 			kind: "file",
 			fileType: "img",
-			position: "top-52 left-80",
+			position: "top-5 left-60",
 			imageUrl: "/images/adrian-3.jpeg",
 		},
 		{
@@ -422,7 +422,7 @@ const ABOUT_LOCATION = {
 			icon: "/images/txt.png",
 			kind: "file",
 			fileType: "txt",
-			position: "top-60 left-5",
+			position: "top-5 left-90",
 			subtitle: "Meet the Developer Behind the Code",
 			image: "/images/adrian.jpg",
 			description: [
@@ -448,6 +448,7 @@ const RESUME_LOCATION = {
 			icon: "/images/pdf.png",
 			kind: "file",
 			fileType: "pdf",
+			position: "top-5 left-0",
 			// you can add `href` if you want to open a hosted resume
 			// href: "/your/resume/path.pdf",
 		},
@@ -467,7 +468,7 @@ const TRASH_LOCATION = {
 			icon: "/images/image.png",
 			kind: "file",
 			fileType: "img",
-			position: "top-10 left-10",
+			position: "top-5 left-0",
 			imageUrl: "/images/trash-1.png",
 		},
 		{
@@ -476,7 +477,7 @@ const TRASH_LOCATION = {
 			icon: "/images/image.png",
 			kind: "file",
 			fileType: "img",
-			position: "top-40 left-80",
+			position: "top-5 left-30",
 			imageUrl: "/images/trash-2.png",
 		},
 	],
