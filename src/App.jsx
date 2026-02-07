@@ -14,25 +14,31 @@ import {
 	Photos,
 } from "@windows";
 
+import { StarsCanvas, EarthCanvas } from "@components/canvas";
+
 gsap.registerPlugin(Draggable);
 
 const App = () => {
 	return (
-		<main>
-			<Navbar />
-			<Welcome />
-			<Dock />
+		<main className="relative z-0 bg-black">
+			<div className="relative z-0 h-full w-full">
+				<Navbar />
+				<Welcome />
+				<Dock />
 
-			<Terminal />
-			<Safari />
-			<Resume />
-			<Finder />
-			<Text />
-			<Image />
-			<Contact />
-			<Photos />
+				<Terminal />
+				<Safari />
+				<Resume />
+				<Finder />
+				<Text />
+				<Image />
+				<Contact />
+				<Photos />
 
-			<Home />
+				<Home />
+				<StarsCanvas />
+				<EarthCanvas />
+			</div>
 		</main>
 	);
 };
